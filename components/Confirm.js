@@ -1,7 +1,7 @@
 import RideSelector from './RideSelector'
 import { useContext } from 'react'
 import { UberContext } from '../context/uberContext'
-//import { ethers } from 'ethers'
+import { ethers } from 'ethers'
 
 const style = {
   wrapper: `flex-1 h-full flex flex-col justify-between`,

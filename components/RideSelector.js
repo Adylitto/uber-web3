@@ -56,6 +56,7 @@ const RideSelector = () => {
             }}
           >
             <Image
+              alt="cartype"
               src={car.iconUrl}
               className={style.carImage}
               height={50}
@@ -69,7 +70,7 @@ const RideSelector = () => {
               <div className={style.price}>
                 {((basePrice / 10 ** 5) * car.priceMultiplier).toFixed(5)}
               </div>
-              <Image src={ethLogo} height={25} width={40} />
+              <Image src={ethLogo} height={25} width={40} alt="ethlogo" />
             </div>
           </div>
         ))}
