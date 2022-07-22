@@ -47,12 +47,6 @@ const Navbar = () => {
 
         <Link href={"#"}>
           <li className=" hover:text-white hover:scale-125 cursor-pointer transition ease-in-out delay-150">
-            More
-          </li>
-        </Link>
-
-        <Link href={"#"}>
-          <li className=" hover:text-white hover:scale-125 cursor-pointer transition ease-in-out delay-150">
             Help
           </li>
         </Link>
