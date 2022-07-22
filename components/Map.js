@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl'
 import { UberContext } from '../context/uberContext'
 
 const style = {
-  wrapper: `flex-1 h-full w-full`,
+  wrapper: `flex-1 h-full w-full absolute bottom-0`,
 }
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN

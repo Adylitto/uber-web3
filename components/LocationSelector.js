@@ -4,7 +4,7 @@ import { UberContext } from '../context/uberContext'
 
 const style = {
   wrapper: `pt-2`,
-  searchHeader: `w-full font-bold text-left flex items-center text-3xl p-4 overflow-hidden`,
+  searchHeader: `w-full font-bold text-left flex items-center text-3xl p-4 overflow-auto scrollbar-hide`,
   inputBoxes: `flex flex-col mb-4 relative`,
   inputBox: `h-10 mx-4 border-2 bg-[#eeeeee] flex items-center my-1 py-1 px-2`,
   focusedInputBox: `border-black`,
