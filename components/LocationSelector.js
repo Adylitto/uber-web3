@@ -36,14 +36,14 @@ const LocationSelector = () => {
                 d='M12 14a2 2 0 100-4 2 2 0 000 4zm5-2a5 5 0 11-10 0 5 5 0 0110 0z'
               />
             </svg>
-          </div>
+          </div>     
           <input
             className={style.input}
             placeholder='Enter pickup location'
             value={pickup}
             onChange={e => setPickup(e.target.value)}
             onFocus={() => setInFocus('from')}
-            autoComplete="street-address"
+            
           />
         </div>
         <div className={style.verticalLine} />
