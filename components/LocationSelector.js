@@ -20,7 +20,7 @@ const LocationSelector = () => {
   return (
     <div className={style.wrapper}>
       <div className={style.searchHeader}>
-        {inFocus === 'from' ? 'Where can we pick you up?' : 'Where to?'}
+        {inFocus === 'from' ? 'Your Pick up loc?' : 'Where to?'}
       </div>
       <div className={style.inputBoxes}>
         <div
@@ -43,6 +43,7 @@ const LocationSelector = () => {
             value={pickup}
             onChange={e => setPickup(e.target.value)}
             onFocus={() => setInFocus('from')}
+            autoComplete="street-address"
           />
         </div>
         <div className={style.verticalLine} />
